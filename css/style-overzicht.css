@@ -1,0 +1,135 @@
+/*
+blue
+RGB 30 64 122
+HEX 1e407a
+
+green
+RGB 79 178 162
+HEX 51b2a2
+
+pink
+RGB 233 144 185
+HEX e990b9
+
+red
+RGB 241 91 57
+HEX f15b39
+
+yellow
+RGB 254 205 62
+HEX fecd3e
+*/
+
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa_Light.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa_Bold.otf);
+}
+
+body{
+    margin: 0;
+    font-family: Nexa_Light;
+}
+
+h1, h2, h3, h4{
+    font-family: Nexa_Bold;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-7{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.col-3_span-3{
+    grid-column-start: 3;
+    grid-column-end: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    grid-column: span 7;
+    min-height: 20rem;
+    background-color: rgb(30, 64, 122);
+    color: rgb(233, 144, 185);
+    line-height: 20rem;
+    margin-bottom: 5rem;
+}
+
+.title > h1{
+    margin: 0;
+    text-align: center;
+}
+
+.filters{
+    font-size: 1rem;
+    grid-column: 2;
+    padding-right: 3rem;
+}
+
+.maat > button{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+}
+
+.colors > a > button{
+    height: 2rem;
+    width: 2rem;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.overzicht{
+    overflow: hidden;
+}
+
+.overzicht > a > img{
+    width: 100%;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.overzicht > h3{
+    margin-bottom: 0;
+}
+
+.overzicht > p{
+    margin-top: 0.5rem;
+}
+
+.blue{
+    background-color: RGB(30, 64, 122);
+}
+
+.green{
+    background-color: RGB(79, 178, 162);
+}
+
+.pink{
+    background-color: RGB(233, 144, 185);
+}
+
+.red{
+    background-color: RGB(241, 91, 57);
+}
+
+.yellow{
+    background-color: RGB(254, 205, 62);
+}

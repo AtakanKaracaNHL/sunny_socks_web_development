@@ -19,3 +19,18 @@ yellow
 RGB 254 205 62
 HEX fecd3e
 */
+
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa_Light.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa_Bold.otf);
+}
+
+body{
+    margin: 0;
+    font-family: Nexa_Light;
+}
