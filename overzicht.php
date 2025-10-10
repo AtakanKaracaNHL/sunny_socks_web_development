@@ -46,7 +46,7 @@
             <?php
                 for($i = 0; $i < count($color); $i++){
                     //first image links to detail.php?color=blue&uni=0, use get on detail page
-                    if(empty($filterColor || $color[$i] == $filterColor)){
+                    if(empty($filterColor) || $color[$i] == $filterColor){
                         echo '
                             <div class="overzicht">
                                 <a href="detail.php?color=' . $color[$i] . '&uni=' . $uni[$i] . '">
