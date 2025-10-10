@@ -41,6 +41,9 @@
                 <a href="overzicht.php?color=yellow"><button class="yellow"></button></a>
             </div>
             <h3>collections</h3>
+            <p><a href="overzicht.php">Alle Producten</a></p>
+            <p>Best Verkocht</p>
+            <p>Nieuwe Sokken</p>
         </div>
         <div class="col-3_span-3">
             <?php
