@@ -1,0 +1,32 @@
+.title{
+    font-size: 3rem;
+    min-height: 20rem;
+    background-color: rgb(30, 64, 122);
+    color: rgb(233, 144, 185);
+    line-height: 20rem;
+    margin-bottom: 5rem;
+}
+
+.title > h1{
+    margin: 0;
+    text-align: center;
+}
+
+h1, h3, h4{
+    font-family: Nexa_Bold;
+}
+
+h2{
+    color: gray;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    gap: 2rem;
+}
+
+.display_img{
+    grid-column: 2;
+    width: 100%;
+}
