@@ -17,18 +17,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-overzicht.css">
 </head>
-<header>
-    <img src="../sunny_socks_web_development/img/Logos/png/sunny_logos_slogan_blue.png" alt="Header-Logo">
-    <input type="text" name="search-bar" id="search-bar" value="Zoekbalk">
-    <div class="phone">
-        <span>Phone</span>
-        <span>+31-6-12345678</span>
-    </div>
-    <div class="email">
-        <span>Email</span>
-        <span>email@gmail.com</span>
-    </div>
-</header>
 <body>
     <div class="grid-7">
         <div class="title">

@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa_Light.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa_Bold.otf);
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    font-family: Nexa_Light;
+    color: #41403E;
+    font-size: 19px;
+}
+
+.upper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.upper > img{
+    width: 100%;
+    grid-column: 2/3;
+}
+
+.email > span, .phone > span{
+    display: block;
+    text-align: right;
+}
+
+.email, .phone{
+    margin-block: auto;
+}
+
+.contact-title{
+    font-family: Nexa Bold;
+    color: #908F8D;
+}
+
+#search-bar{
+    min-width: 25vw;
+    border-radius: 6px;
+    padding-left: 1rem;
+    grid-column: 4/5;
+    height: 70%;
+    margin-block: auto;
+}
+
+hr{
+    color: #41403E;
+}
+
+.lower{
+    display: grid;
+    grid-template-columns: 30% 40% 10% 7.5% 12.5%;
+}
+
+.links{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links > a{
+    text-decoration: none;
+    color: gray;
+}
+
+.icons{
+    grid-column: 4/5;
+    display: flex;
+    justify-content: space-between;
+}
