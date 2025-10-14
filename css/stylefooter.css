@@ -9,7 +9,6 @@
 }
 
 body{
-    margin: 4rem;
     font-family: "Nexa_Light";
 
 }
@@ -64,11 +63,11 @@ h3{
 .Snellelinks{
     grid-column: 2;
 }
+
 .links{
     list-style-type: none;
     color: black;
 }
-
 
 .Helpcentrum{
     grid-column: 3;
