@@ -54,7 +54,7 @@
         </div>
 
         <div class="process-step step-2">
-            <img src="img/duurzaamheid/box-1.jpg" alt="Recycling proces stap 1" class="process-image">
+            <img src="img/duurzaamheid/box-2.jpg" alt="Recycling proces stap 1" class="process-image">
             <div class="process-box">
                 <div class="process-heading">
                     <div class="process-border">
@@ -74,7 +74,7 @@
         </div>
 
         <div class="process-step step-3">
-            <img src="img/duurzaamheid/box-1.jpg" alt="Recycling proces stap 1" class="process-image">
+            <img src="img/duurzaamheid/box-3.jpg" alt="Recycling proces stap 1" class="process-image">
             <div class="process-box">
                 <div class="process-heading">
                     <div class="process-border">
@@ -95,7 +95,7 @@
         </div>
 
         <div class="process-step step-4">
-            <img src="img/duurzaamheid/box-1.jpg" alt="Recycling proces stap 1" class="process-image">
+            <img src="img/duurzaamheid/box-4.jpg" alt="Recycling proces stap 1" class="process-image">
             <div class="process-box">
                 <div class="process-heading">
                     <div class="process-border">
