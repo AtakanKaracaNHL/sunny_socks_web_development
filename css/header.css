@@ -16,6 +16,7 @@ header{
     font-family: Nexa_Light;
     color: #41403E;
     font-size: 19px;
+    margin-bottom: 20px;
 }
 
 .upper{
@@ -43,15 +44,6 @@ header{
     font-family: Nexa Bold;
     color: #908F8D;
 }
-
-/* #search-bar{
-    min-width: 25vw;
-    border-radius: 6px;
-    padding-left: 1rem;
-    grid-column: 4/5;
-    height: 70%;
-    margin-block: auto;
-} */
 
 .search-container{
     grid-column: 4/6;

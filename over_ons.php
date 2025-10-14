@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<?php
+    require_once 'components/header.html';
+?>
 <body>
     
 </body>

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-overzicht.css">
 </head>
+<?php
+    require_once 'components/header.html';
+?>
 <body>
     <div class="grid-7">
         <div class="title">
