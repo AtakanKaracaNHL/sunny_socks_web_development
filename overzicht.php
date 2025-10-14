@@ -16,11 +16,15 @@
     <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-overzicht.css">
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
 </head>
-<?php
-    require_once 'components/header.html';
-?>
+
 <body>
+    <?php
+        require_once 'components/header.html';
+    ?>
     <div class="grid-7">
         <div class="title">
             <h1>
@@ -67,12 +71,11 @@
                     
                 }
             ?>
-        <a href=""></a>
+            <a href=""></a>
+        </div>
     </div>
-
-
+    <?php
+        require_once 'components/footer.html';
+    ?>
 </body>
-<?php
-    require_once 'footer.html';
-?>
 </html>
