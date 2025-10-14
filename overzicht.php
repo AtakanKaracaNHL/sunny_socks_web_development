@@ -72,4 +72,7 @@
 
 
 </body>
+<?php
+    require_once 'footer.html';
+?>
 </html>

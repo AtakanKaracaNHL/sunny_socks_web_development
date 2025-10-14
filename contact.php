@@ -13,4 +13,7 @@
 <body>
     
 </body>
+<?php
+    require_once 'components/footer.html';
+?>
 </html>

@@ -9,9 +9,7 @@
 }
 
 body{
-    margin: 4rem;
     font-family: "Nexa_Light";
-
 }
 
 footer > .footer-content{
@@ -125,4 +123,3 @@ h3{
     font-size: 13px;
     color: grey;
 }
-
