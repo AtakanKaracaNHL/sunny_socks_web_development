@@ -16,8 +16,15 @@
     <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-overzicht.css">
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
 </head>
+
 <body>
+    <?php
+        require_once 'components/header.html';
+    ?>
     <div class="grid-7">
         <div class="title">
             <h1>
@@ -42,6 +49,9 @@
                 <a href="overzicht.php?color=yellow"><button class="yellow"></button></a>
             </div>
             <h3>collections</h3>
+            <p><a href="overzicht.php">Alle Producten</a></p>
+            <p>Best Verkocht</p>
+            <p>Nieuwe Sokken</p>
         </div>
         <div class="col-3_span-3">
             <?php
@@ -61,9 +71,11 @@
                     
                 }
             ?>
-        <a href=""></a>
+            <a href=""></a>
+        </div>
     </div>
-
-
+    <?php
+        require_once 'components/footer.html';
+    ?>
 </body>
 </html>
