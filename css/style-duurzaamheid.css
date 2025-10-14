@@ -7,7 +7,7 @@ body {
     min-height: 20rem;
     background-color: rgb(30, 64, 122);
     color: rgb(241, 91, 57);
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,4 +37,136 @@ body {
     border-radius: 50%;
     font-size: 1.5rem;
     margin: 0 20px;
+}
+
+.main-title {    
+    text-align: center;
+}
+
+.main-title > h1 {
+    font-family: "Nexa_Bold";
+    color: rgb(30 64 122);
+    font-size:28px;
+    margin-bottom: 0;
+}
+
+.main-title > p {
+    font-family: "Nexa_Light";
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.process-step {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    max-width: 1000px;
+    margin: 3rem auto;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+.process-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    display: block;
+}
+
+.process-box {
+    background-color: #D9D9D9;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.process-box p {
+    font-family: "Nexa_Light";
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.process-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.process-border {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 18px;
+}
+
+.process-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 100%;
+    background: #1e407a;
+    border-radius: 4px;
+}
+
+.process-title {
+    font-family: "Nexa_Bold";
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.process-stepnr {
+    font-family: "Nexa_Light";
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.process-box ul {
+    padding: 0;
+}
+
+.process-box li {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.process-box li i {
+    color: #1e407a;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.process-box .process-label {
+    font-family: "Nexa_Bold";
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.step-1 .process-border::before {
+    background: #1e407a;
+}
+.step-1 li i {
+    color: #1e407a;
+}
+
+.step-2 .process-border::before {
+    background: #51b2a2;
+}
+.step-2 li i {
+    color: #51b2a2;
+}
+
+.step-3 .process-border::before {
+    background: #f15b39;
+}
+.step-3 li i {
+    color: #f15b39;
+}
+
+.step-4 .process-border::before {
+    background: #fecd3e;
+}
+.step-4 li i {
+    color: #fecd3e;
 }
