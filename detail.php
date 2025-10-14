@@ -3,6 +3,14 @@
     $uni = filter_input(INPUT_GET, "uni");
     $price = filter_input(INPUT_GET, "price");
     $translateColor = ["blue" => "Blauwe","green" => "Groene","pink" => "Roze","red" => "Rode","yellow" => "Gele"];
+    $translateColor2 = ["blue" => "Blauw","green" => "Groen","pink" => "Roze","red" => "Rood","yellow" => "Geel"];
+    $size = "S";
+
+    if(empty($color)){
+        $color = "blue";
+        $uni = 1;
+        $price = 9.99;
+    }
 
     $src = "img\catalogus\catalogus\cut\Sunny_socks_";
     $name = $translateColor[$color];
@@ -13,7 +21,6 @@
     $src .= $color;
     $src .= ".jpg";
     $name .= " Sokken";
-
 ?>
 
 <!DOCTYPE html>
@@ -37,6 +44,32 @@
         <div class="info">
             <h2>Sunny socks</h2>
             <h1><?php echo $name;?></h1>
+            <img src="img/sterren.png" alt="Sterren">
+            <h3>€ <?php echo $price;?></h3>
+            <div class="maat">
+                <h3 class="light">Maat: <?php echo $size;?></h3>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+            </div>
+            <div class="colors">
+                <h3 class="light">Kleur: <?php echo $translateColor2[$color];?></h3>
+                <a href="detail.php?color=blue&uni=<?php echo $uni;?>&price=<?php echo $price;?>"><button class="blue"></button></a>
+                <a href="detail.php?color=green&uni=<?php echo $uni;?>&price=<?php echo $price;?>"><button class="green"></button></a>
+                <a href="detail.php?color=pink&uni=<?php echo $uni;?>&price=<?php echo $price;?>"><button class="pink"></button></a>
+                <a href="detail.php?color=red&uni=<?php echo $uni;?>&price=<?php echo $price;?>"><button class="red"></button></a>
+                <a href="detail.php?color=yellow&uni=<?php echo $uni;?>&price=<?php echo $price;?>"><button class="yellow"></button></a>
+            </div>
+            <div class="amount">
+                <h3 class="light">Hoeveelheid</h3>
+                
+            </div>
+            <div>
+                <h3 class="light">Geschatte levering: </h3>1 tot 2 werkdagen
+                <h3 class="light">Gratis verzending en retourneren: op alle bestellingen boven de € 30</h3>
+            </div>
+            
         </div>
     </div>
     
