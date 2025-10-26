@@ -18,7 +18,6 @@
                 </p>
             </div>
         </div>
-        <script src="js/campagne/vote-timer.js"></script>
         <div class='timer-container'>
             <div class='timer-title'>Stemmen eindigt over:</div>
             <div class='timer-box-days'>
@@ -42,8 +41,17 @@
             <div class='election-content'>
                 <img class='election-vector' src="img/campagne/Vector.png" alt="Info.png">
                 <p class='election-text-title'>Hoe werkt de verkiezing?</p>
-                <p class='election-text-step-1'>Hoe werkt de verkiezing?</p>
+                <p class='election-text-step-1'>1. Bekijk de ontwerpen</p>
+                <p class='election-text-step-1-desc'>Scroll door alle unieke sokontwerpen hieronder en bekijk de details van elk ontwerp.</p>
+                <p class='election-text-step-2'>2. Stem op je favoriet</p>
+                <p class='election-text-step-2-desc'>Scroll door alle unieke sokontwerpen hieronder en bekijk de details van elk ontwerp.</p>                
+                <p class='election-text-step-3'>3. Deel met je vrienden</p>
+                <p class='election-text-step-3-desc'>Scroll door alle unieke sokontwerpen hieronder en bekijk de details van elk ontwerp.</p>                
+                <p class='election-text-step-4'>4. Krijg korting</p>    
+                <p class='election-text-step-4-desc'>Wie stemt krijgt 15% korting op de pre-order van het winnende ontwerp!</p>                                                            
             </div>
+        </div> 
     </main>
+    <script src="js/campagne/vote-timer.js"></script>
 </body>
 </html>
