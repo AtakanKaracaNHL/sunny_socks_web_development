@@ -151,22 +151,74 @@ body {
 }
 
 .step-2 .process-border::before {
-    background: #51b2a2;
+    background: #e990b9;
 }
 .step-2 li i {
-    color: #51b2a2;
+    color: #e990b9;
 }
 
 .step-3 .process-border::before {
-    background: #f15b39;
+    background: #fecd3e;
 }
 .step-3 li i {
-    color: #f15b39;
+    color: #fecd3e;
 }
 
 .step-4 .process-border::before {
-    background: #fecd3e;
+    background: #51b2a2;
 }
 .step-4 li i {
-    color: #fecd3e;
+    color: #51b2a2;
+}
+
+main {
+    position: relative;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    left: 45.8%;
+    transform: translateX(-500px);
+    top: 500px;
+    width: 4px;
+    height: calc(100% - 970px);
+    background-color: #ccc;
+    border-radius: 2px;
+    z-index: 0;
+}
+
+.process-step::before {
+    content: attr(data-step);
+    position: absolute;
+    left: 45%;
+    transform: translateX(-515px);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    font-family: "Nexa_Bold";
+}
+
+.step-1::before {
+    background-color: #1e407a;
+    content: "1";
+}
+.step-2::before {
+    background-color: #e990b9;
+    content: "2";
+}
+.step-3::before {
+    background-color: #fecd3e;
+    content: "3";
+}
+.step-4::before {
+    background-color: #51b2a2;
+    content: "4";
 }
