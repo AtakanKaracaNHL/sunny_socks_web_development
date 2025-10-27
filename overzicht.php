@@ -4,7 +4,7 @@
     $name = ["Blauwe sokken","Groene sokken","Roze sokken","Rode sokken","Gele sokken","Blauwe uni sokken","Groene uni sokken","Roze uni okken","Rode uni sokken","Gele uni sokken"];
     $price = ["7,99","9,99","4,99","5,99","8,99","9,99","6,99","7,99","8,99","5,99"];
     $uni = [0,0,0,0,0,1,1,1,1,1];
-    $filterColor = filter_input(INPUT_GET,"color")
+    $filterColor = filter_input(INPUT_GET,"color");
 ?>
 
 <!DOCTYPE html>

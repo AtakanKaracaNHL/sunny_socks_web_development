@@ -43,7 +43,12 @@
         <img src="<?php echo $src;?>" alt="hi" class=display_img>
         <div class="info">
             <h2>Sunny socks</h2>
-            <h1><?php echo $name;?></h1>
+            <div class="spacebetween">
+                <h1><?php echo $name;?></h1>
+                <div>
+                    <img src="img\illustraties\png\Heart.png" alt="">
+                </div>
+            </div>
             <img src="img/sterren.png" alt="Sterren">
             <h3>€ <?php echo $price;?></h3>
             <div class="maat">
@@ -63,13 +68,37 @@
             </div>
             <div class="amount">
                 <h3 class="light">Hoeveelheid</h3>
-                
+                <div class="spacebetween">
+                    <button class="amountButton"><h2 class="thin">-‎ ‎ ‎ 2 ‎ ‎ ‎ +</h2></button>
+                    <button class="Winkelwagen"><h3 class="thin">Voeg toe aan winkelwagen</h3></button>
+                </div>
             </div>
             <div>
-                <h3 class="light">Geschatte levering: </h3>1 tot 2 werkdagen
-                <h3 class="light">Gratis verzending en retourneren: op alle bestellingen boven de € 30</h3>
+                <p><img src="img\illustraties\png\Truck.png" alt="Truck" class="small_Img"><b>Geschatte levering:</b> 1 tot 2 werkdagen</p>
+                <b><img src="img\illustraties\png\Box.png" alt="Box" class="small_Img">Gratis verzending en retourneren: op alle bestellingen boven de € 30</b>
             </div>
-            
+        </div>
+    </div>
+    <div class="spacearound">
+        <div>
+            <div class="round-border"><img src="img\illustraties\png\shopping-cart.png" alt="Shopping-cart"></div>
+            <h1 class="thin">Gratis verzending</h1>
+            Lorem ipsum dolor sit amet, consectetur adipi elit.
+        </div>
+        <div>
+            <div class="round-border"><img src="img\illustraties\png\sock.png" alt="Sock"></div>
+            <h1 class="thin">Comfort dat houdt</h1>
+            Lorem ipsum dolor sit amet, consectetur adipi elit.
+        </div>
+        <div>
+            <div class="round-border"><img src="img\illustraties\png\Star.png" alt="Star"></div>
+            <h1 class="thin">Kwaliteitsgarantie</h1>
+            Lorem ipsum dolor sit amet, consectetur adipi elit.
+        </div>
+        <div>
+            <div class="round-border"><img src="img\illustraties\png\recycle.png" alt="Recycle"></div>
+            <h1 class="thin">duurzame Materialen</h1>
+            Lorem ipsum dolor sit amet, consectetur adipi elit.
         </div>
     </div>
     
