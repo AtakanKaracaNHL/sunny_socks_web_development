@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campagne</title>
     <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="css/campagne.css">
 </head>
 <body>
+    <?php
+        require_once 'components/header.html';
+    ?>
+
     <main>
         <div class='title-container'> 
             <div class='title-content'>
@@ -51,7 +58,16 @@
                 <p class='election-text-step-4-desc'>Wie stemt krijgt 15% korting op de pre-order van het winnende ontwerp!</p>                                                            
             </div>
         </div> 
+        <div class='vote-container'>
+            <div class='vote-content'>
+                <p class='vote-title'>ALLE ONTWERPEN</p>
+            </div>
+        </div>
     </main>
     <script src="js/campagne/vote-timer.js"></script>
+
+    <?php
+        require_once 'components/footer.html';
+    ?>
 </body>
 </html>

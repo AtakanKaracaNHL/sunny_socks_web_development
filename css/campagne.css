@@ -140,21 +140,21 @@ body{
     margin-top: 36px;
     background-image: url(../img/campagne/background-election.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    width: 80%;
     height: 694px;
+    width: 96%;
+    max-height: 500px;
 }
 
 .election-content{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .election-vector{
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 1;
     margin-top: 5vh;
-    margin-left: 8vh;
+    margin-left: 40px;
     width: 52px;
     height: auto;
 }
@@ -172,18 +172,19 @@ body{
 .election-text-title{
     grid-column: 2/8;
     grid-row: 1;
-    margin-top: 6%;
-    height: auto;
+    margin-top: 52px;
+    margin-left: 120px;
 }
 
 .election-text-step-1{
     grid-column: 2/8;
     grid-row: 1;
     padding-top: 100px;
+    margin-left: 120px;
 }
 
 .election-text-step-2{
-    grid-column: 6/8;
+    grid-column: 8/12;
     grid-row: 1;
     padding-top: 100px;
 }
@@ -192,10 +193,11 @@ body{
     grid-column: 2/8;
     grid-row: 1;
     padding-top: 270px;
+    margin-left: 120px;
 }
 
 .election-text-step-4{
-    grid-column: 6/8;
+    grid-column: 8/12;
     grid-row: 1;
     padding-top: 270px;
 }
@@ -205,32 +207,51 @@ body{
 .election-text-step-3-desc,
 .election-text-step-4-desc{
     font-family: Nexa_Light;
-    font-size: 20px;
+    font-size: 18 px;
     color: white;
     text-transform: uppercase;
     text-align: left;
 }
 
 .election-text-step-1-desc{
-    grid-column: 2/5;
+    grid-column: 2/6;
     grid-row: 1;
     padding-top: 140px;
+    margin-left: 120px;
 }
 
 .election-text-step-2-desc{
-    grid-column: 6/8;
+    grid-column: 8/11;
     grid-row: 1;
     padding-top: 140px;
 }
 
 .election-text-step-3-desc{
-    grid-column: 2/5;
+    grid-column: 2/6;
+    grid-row: 1;
+    padding-top: 310px;
+    margin-left: 120px;
+}
+
+.election-text-step-4-desc{
+    grid-column: 8/11;
     grid-row: 1;
     padding-top: 310px;
 }
 
-.election-text-step-4-desc{
-    grid-column: 6/8;
-    grid-row: 1;
-    padding-top: 310px;
+.vote-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-self: center;
+
+}
+
+.vote-content{
+
+}
+
+.vote-title{
+    font-family: Nexa_Bold;
+    color: black;
+    font-size: 36px;
 }
