@@ -39,6 +39,15 @@ h1, h2, h3, h4{
     font-family: Nexa_Bold;
 }
 
+.filters a{
+    color: gray;
+    text-decoration: none;
+}
+
+.filters p{
+    color: gray;
+}
+
 .grid-3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,7 +55,7 @@ h1, h2, h3, h4{
 
 .grid-7{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: 0.8fr 1.2fr 1.5fr 1.5fr 1.5fr 1.2fr 0.8fr;
 }
 
 .col-3_span-3{
