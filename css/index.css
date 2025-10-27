@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../text/Nexa_Light.otf);
+}
+body{
+    margin: 0;
+    font-family:"Nexa_light";
+}
+.korting{
+    background-color: rgb(30, 64, 122);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.contentkorting{
+    grid-column: 2;
+    text-align: center;
+    align-content: center;
+    padding: 4rem;
+}
+.contentkorting > p{
+    color: white;
+    font-family: "Nexa_light";
+    line-height: 0px;
+    font-size: 30px;
+}
+.input{
+    align-content: center;
+    padding: 0.5rem;
+}
+form > input{
+    padding: 0.7rem;
+    min-width: 300px;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-bottom: 0.2rem;
+    font-family:'Caveat', cursive;
+    font:lightgray;
+}
+#register{
+    background-color: rgb(30, 64, 122);
+    min-width: 325px;
+    margin-top: 0.3rem;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+.imagesun > img{
+    grid-column: 1;
+    width: 150px;
+    padding-top: 2rem;
+    padding-left: 15rem;
+   
+}
+.imageshop > img{
+    grid-column: 3;
+    width: 200px;
+    padding-top: 15rem;
+}
+
+
+
+.contentinfo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr); 
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.Verzending{
+    grid-column: 2;
+    padding-right: 1rem;
+}
+.Comfort{
+    grid-column: 3;
+    padding-right: 1rem;
+}
+.Kwaliteitsgarantie{
+    grid-column: 4;
+    padding-right: 1rem;
+}
+.Duurzaam{
+    grid-column: 5;
+    padding-right: 1rem;
+}
+.contentinfo > div p{
+    font-size: 12px;
+    color: grey;
+}
+.Verzendingimg > img{
+    width: 40px;
+    padding: 0.5rem;
+    border: 0.5px solid;
+    border-color: lightgrey;
+    border-radius: 50%;
+}
+.Comfortimg > img{
+    width: 40px;
+    padding: 0.5rem;
+    border: 0.5px solid;
+    border-color: lightgrey;
+    border-radius: 50%;
+}
+.Kwaliteitimg > img{
+    width: 40px;
+    padding: 0.5rem;
+    border: 0.5px solid;
+    border-color: lightgrey;
+    border-radius: 50%;
+}
+.Duurzaamimg > img{
+    width: 40px;
+    padding: 0.5rem;
+    border: 0.5px solid;
+    border-color:lightgrey;
+    border-radius: 50%;
+}
