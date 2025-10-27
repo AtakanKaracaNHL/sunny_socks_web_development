@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa_Light.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa_Bold.otf);
+}
+
+body{
+    font-family: "Nexa_Light";
+}
+
+footer > .footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    Margin: 0;
+    padding: 1rem;
+    gap: 10px;
+    align-content: center;
+}
+
+h3{
+    font-family:"Nexa_Light";
+}
+
+.footerlogo > img{
+    width: 60%;
+    grid-column: 1;
+    padding:0.7rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 0.7rem;
+}
+
+.social-icons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.social-icons li.active a {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: white;
+  text-decoration: none;
+}
+
+
+.Snellelinks{
+    grid-column: 2;
+}
+.links{
+    list-style-type: none;
+    color: black;
+}
+
+
+.Helpcentrum{
+    grid-column: 3;
+}
+.centrum{
+    list-style-type: none;
+}
+
+.Onzenieuwsbrief{
+    grid-column: 4;
+}
+
+.Onzenieuwsbrief > input{
+    padding: 0.7rem;
+    border-radius: 50px;
+}
+
+.email-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  width: 230px;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.email-wrapper > input{
+    border: none;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.email-wrapper button {
+  background-color:  #3b5998;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-right: 3px;
+}
+
+.email-wrapper > i{
+    color: #ffffff;
+}
+
+.footercopy{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 13px;
+    color: grey;
+}

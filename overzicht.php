@@ -1,10 +1,10 @@
 <?php
     $color = ["blue","green","pink","red","yellow","blue","green","pink","red","yellow"];
     $src = ["\Sunny_socks_blue","\Sunny_socks_green","\Sunny_socks_pink","\Sunny_socks_red","\Sunny_socks_yellow","\Sunny_socks_uni_blue","\Sunny_socks_uni_green","\Sunny_socks_uni_pink","\Sunny_socks_uni_red","\Sunny_socks_uni_yellow"];
-    $name = ["Blauwe sokken","Groene sokken","Roze sokken","Rode sokken","Gele sokken","Blauwe uni sokken","Groene uni sokken","Roze suni okken","Rode uni sokken","Gele uni sokken"];
+    $name = ["Blauwe sokken","Groene sokken","Roze sokken","Rode sokken","Gele sokken","Blauwe uni sokken","Groene uni sokken","Roze uni okken","Rode uni sokken","Gele uni sokken"];
     $price = ["7,99","9,99","4,99","5,99","8,99","9,99","6,99","7,99","8,99","5,99"];
     $uni = [0,0,0,0,0,1,1,1,1,1];
-    $filterColor = filter_input(INPUT_GET,"color")
+    $filterColor = filter_input(INPUT_GET,"color");
 ?>
 
 <!DOCTYPE html>
@@ -14,15 +14,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>overzicht</title>
     <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-overzicht.css">
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/header.css">
 </head>
+
 <body>
+    <?php
+        require_once 'components/header.html';
+    ?>
+    <div class="title">
+        <h1>
+            Alle producten
+        </h1>
+    </div>
     <div class="grid-7">
-        <div class="title">
-            <h1>
-                Alle producten
-            </h1>
-        </div>
         <div class="filters">
             <h2>Filters</h2>
             <h3>Maat</h3>
@@ -52,8 +60,8 @@
                     if(empty($filterColor) || $color[$i] == $filterColor){
                         echo '
                             <div class="overzicht">
-                                <a href="detail.php?color=' . $color[$i] . '&uni=' . $uni[$i] . '">
-                                <img src="img\catalogus\catalogus\cut' . $src[$i] . '.jpg" alt="hello">
+                                <a href="detail.php?color=' . $color[$i] . '&uni=' . $uni[$i] . '&price=' . $price[$i] . '">
+                                <img src="img\catalogus\catalogus\cut' . $src[$i] . '.jpg" alt="' . $name[$i] . '">
                                 </a>
                                 <h3>' . $name[$i] . '</h3>
                                 <p>€ ' . $price[$i] . '</p>
@@ -63,9 +71,10 @@
                     
                 }
             ?>
-        <a href=""></a>
+        </div>
     </div>
-
-
+    <?php
+        require_once 'components/footer.html';
+    ?>
 </body>
 </html>
