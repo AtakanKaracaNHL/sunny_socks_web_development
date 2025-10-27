@@ -22,14 +22,14 @@
 </head>
 
 <body>
+    <?php
+        require_once 'components/header.html';
+    ?>
     <div class="title">
         <h1>
             Alle producten
         </h1>
     </div>
-    <?php
-        require_once 'components/header.html';
-    ?>
     <div class="grid-7">
         <div class="filters">
             <h2>Filters</h2>
