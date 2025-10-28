@@ -1,6 +1,14 @@
 {
-    "bmw": "m1",
-    "tesla": "x",
-    "audi": "rs3",
-    "ford": "mustang"
+    "eerste bericht": "Hoi! Waarmee kan ik je helpen?",
+    "contactgegevens": "U kunt ons contacteren via het telefoon nummer +31-6-12345678 of via het email adres email@gmail.com",
+    "soort sokken": "Kies het type sok dat je zoekt, bijvoorbeeld enkelsokken, kniekousen of sportsokken",
+    "maat": "Selecteer de maat van de sokken die past bij jouw voeten, zoals klein, medium, groot of extra groot",
+    "kleur": "Kies de gewenste kleur van de sokken, bijvoorbeeld zwart, wit, blauw of gemixt",
+    "materiaal": "Kies het materiaal van de sokken, zoals katoen, wol of bamboe",
+    "geslacht": "Geef aan of de sokken voor heren, dames of kinderen zijn",
+    "stijl": "Kies de stijl van de sokken: effen, gestreept, met patroon of grappig/funny",
+    "dikte": "Geef aan of je dunne, gemiddelde of dikke sokken wilt",
+    "gebruik": "Voor welk doel zijn de sokken bedoeld, zoals dagelijks gebruik, sport of feestelijk",
+    "duurzaamheid": "Kies of je duurzame, milieuvriendelijke sokken wilt",
+    "cadeauverpakking": "Wil je sokken die als cadeauset verpakt zijn"
 }
