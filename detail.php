@@ -43,13 +43,13 @@
         </h1>
     </div>
     <div class="grid-5">
-        <img src="<?php echo $src;?>" alt="hi" class=display_img>
+        <img src="<?php echo $src;?>" alt="Sock_img" class=display_img>
         <div class="info">
             <h2>Sunny socks</h2>
             <div class="spacebetween">
                 <h1><?php echo $name;?></h1>
                 <div>
-                    <img src="img\illustraties\png\Heart.png" alt="">
+                    <img src="img\illustraties\png\Heart.png" alt="Heart">
                 </div>
             </div>
             <img src="img/sterren.png" alt="Sterren">
@@ -72,7 +72,11 @@
             <div class="amount">
                 <h3 class="light">Hoeveelheid</h3>
                 <div class="spacebetween">
-                    <button class="amountButton"><h2 class="thin">-‎ ‎ ‎ 2 ‎ ‎ ‎ +</h2></button>
+                    <button class="amountButton">
+                        <h2 class="thin">-</h2>
+                        <h2 class="thin">1</h2>
+                        <h2 class="thin">+</h2>
+                    </button>
                     <button class="Winkelwagen"><h3 class="thin">Voeg toe aan winkelwagen</h3></button>
                 </div>
             </div>

@@ -68,10 +68,10 @@ h1, h2, h3, h4{
 
 .title{
     font-size: 3rem;
-    min-height: 20rem;
+    min-height: 30dvh;
     background-color: rgb(30, 64, 122);
     color: rgb(233, 144, 185);
-    line-height: 20rem;
+    line-height: 30dvh;
     margin-bottom: 5rem;
 }
 
@@ -93,7 +93,7 @@ h1, h2, h3, h4{
     color: gray;
     border: 1px solid gray;
     border-radius: 0.5rem;
-    margin: 0.25rem;
+    margin-right: 0.5rem;
 }
 
 .colors > a > button{
@@ -102,10 +102,6 @@ h1, h2, h3, h4{
     border: 0;
     border-radius: 50%;
     margin-right: 0.5rem;
-}
-
-.overzicht{
-    overflow: hidden;
 }
 
 .overzicht > a > img{
