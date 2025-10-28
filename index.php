@@ -16,7 +16,7 @@
     ?>
     
     <?php
-        require_once 'components/footer.html';
+        // require_once 'components/footer.html';
     ?>
 </body>
 </html>
