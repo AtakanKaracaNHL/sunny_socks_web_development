@@ -72,7 +72,11 @@
             <div class="amount">
                 <h3 class="light">Hoeveelheid</h3>
                 <div class="spacebetween">
-                    <button class="amountButton"><h2 class="thin">-‎ ‎ ‎ 2 ‎ ‎ ‎ +</h2></button>
+                    <button class="amountButton">
+                        <h2 class="thin">-</h2>
+                        <h2 class="thin">1</h2>
+                        <h2 class="thin">+</h2>
+                    </button>
                     <button class="Winkelwagen"><h3 class="thin">Voeg toe aan winkelwagen</h3></button>
                 </div>
             </div>
