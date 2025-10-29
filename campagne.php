@@ -61,10 +61,60 @@
         <div class='vote-container'>
             <div class='vote-content'>
                 <p class='vote-title'>ALLE ONTWERPEN</p>
+                    <div class='vote-card-first-place-container'>
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <p class='vote-card-first-text'>#1</p>
+                    <div class='vote-card-second-place-container'>
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <p class='vote-card-second-text'>#2</p>
+                    <div class='vote-card-third-place-container'>
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <p class='vote-card-third-text'>#3</p>
+                    <div class='vote-first-place'>
+                        <img class='vote-card-img-large' src="img/catalogus/catalogus/Sunny_socks_uni_red.jpg" alt="Red socks">
+                        <p class='vote-card-title-large'>RODE SOKKEN</p>
+                        <p class='vote-card-text-large'>MOOIE RODE SOKKEN</p> 
+                        <button class='vote-card-button-large'>
+                            <i class="fa-regular fa-heart fa-large"></i>
+                            <p class='vote-card-button-text-large'>STEM</p>
+                        </button>
+                        <div class='vote-card-counter-large'>
+                           <p class='vote-card-counter-text'>120</p>
+                        </div>                                           
+                    </div>
+                    <div class='vote-second-place'>
+                        <img class='vote-card-img-small' src="img/catalogus/catalogus/Sunny_socks_pink.jpg" alt="Pink socks">
+                        <p class='vote-card-title-small'>ROZE SOKKEN</p>
+                        <p class='vote-card-text-small'>MOOIE ROZE SOKKEN</p>
+                        <button class='vote-card-button-small'>
+                            <i class="fa-regular fa-heart fa-small"></i>
+                            <p class='vote-card-button-text-small'>STEM</p>
+                        </button> 
+                        <div class='vote-card-counter-small'>
+                            <p class='vote-card-counter-text'></p>
+                        </div>
+                    </div>
+                    <div class='vote-third-place'>
+                        <img class='vote-card-img-small' src="img/catalogus/catalogus/Sunny_socks_yellow.jpg" alt="Yellow socks">
+                        <p class='vote-card-title-small'>GELE SOKKEN</p>
+                        <p class='vote-card-text-small'>MOOIE GELE SOKKEN</p>
+                        <button class='vote-card-button-small'>
+                            <i class="fa-regular fa-heart fa-small"></i>
+                            <p class='vote-card-button-text-small'>STEM</p>
+                        </button>      
+                        <div class='vote-card-counter-small'>
+                            <p class='vote-card-counter-text'></p>
+                        </div>               
+                    </div>
             </div>
         </div>
     </main>
+
     <script src="js/campagne/vote-timer.js"></script>
+    <script src="js/campagne/vote-counter.js"></script>
 
     <?php
         require_once 'components/footer.html';
