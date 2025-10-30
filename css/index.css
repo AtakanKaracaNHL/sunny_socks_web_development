@@ -4,7 +4,7 @@
     grid-template-rows: repeat(6, 1fr);
     background-color: #1E407A;
     height: 760px;
-    width: auto;
+    width: fit-content;
 }
 
 .index-election-title{
