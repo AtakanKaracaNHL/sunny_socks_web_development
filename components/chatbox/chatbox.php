@@ -6,6 +6,9 @@
         $input = "eerste bericht";
     }
 ?>
+<head>
+    <link rel="stylesheet" href="../../css/chat-interface.css">
+</head>
 
 <form action="./chatbox.php" method="post">
     <input type="text" name="chat-input" id="chat-input">
