@@ -1,0 +1,112 @@
+.index-election-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: #1E407A;
+    height: 760px;
+    width: auto;
+}
+
+.index-election-title{
+    grid-column: 1/9;
+    grid-row: 1;
+    margin-top: 120px;
+    margin-bottom: 0;
+    font-family: Nexa_Bold;
+    font-size: 60px;
+    text-align: center;
+    color: #F15B39;
+    text-transform: uppercase;
+}
+
+.index-election-subtext{
+    grid-column: 2/8;
+    grid-row: 2;
+    font-family: Nexa_Light;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.index-election-countdown-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 20%);
+    background-color: #FECD3E;
+    border-radius: 68px;
+    grid-row: 3;
+    grid-column: 4/6;
+    grid-column-gap: 24px;
+    height: 320px;
+    width: 850px;
+}
+
+.index-election-countdown-text{
+    font-family: Nexa_Bold;
+    grid-column: 2/6;
+    grid-row: 1/3;
+    place-self: center;
+    text-align: center;
+    font-size: 40px;
+    color: #F15B39;
+    text-transform: uppercase;
+}
+
+.timer-box-days,
+.timer-box-hours,
+.timer-box-minutes,
+.timer-box-seconds{
+    background-color: #F15B39;
+    color: #FFFFFF;
+    border-radius: 24px;
+    text-align: center;
+    display: grid;
+    grid-template: repeat(1, 1fr);
+    width: 130px;
+    height: 160px;
+
+}
+
+.timer-box-days{ 
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.timer-box-hours{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.timer-box-minutes{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.timer-box-seconds{
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.timer-time-text,
+.timer-days,
+.timer-hours,
+.timer-minutes,
+.timer-seconds{
+    font-family: Nexa_Bold;
+    text-transform: uppercase;
+}
+
+.timer-days,
+.timer-hours,
+.timer-minutes,
+.timer-seconds{
+    height: 0;
+    font-size: 40px;
+}
+
+.timer-time-text{
+    grid-row-start: 3;
+    font-size: 24px;
+}
