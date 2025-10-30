@@ -1,18 +1,23 @@
 <?php
+    session_start();
+
     $input = filter_input(INPUT_POST, 'chat-input');
     $searchData = 'searchData.json';
-
-    if($input == null){
-        $input = "eerste bericht";
-    }
 ?>
 <head>
     <link rel="stylesheet" href="../../css/chat-interface.css">
 </head>
 
-<form action="./chatbox.php" method="post">
-    <input type="text" name="chat-input" id="chat-input">
-</form>
+<body>
+    <div class="chat-history">
+        <?php 
+            createChat($searchData, $input);
+        ?>
+    </div>
+    <form action="./chatbox.php" method="post">
+        <input type="text" name="chat-input" id="chat-input" placeholder="vul hier uw vraag in.">
+    </form>
+</body>
 
 <?php
     function getValueFromJsonFile($searchData){
@@ -22,9 +27,11 @@
     }
 
     function formatInput($input){
-        $lowered_input = strtolower($input);
-        $formatted_input = $lowered_input;
-        return $formatted_input;
+        if($input != null){
+            $lowered_input = strtolower($input);
+            $formatted_input = $lowered_input;
+            return $formatted_input;
+        }
     }
 
     function createResponse($searchData, $input){
@@ -38,5 +45,27 @@
         }
     }
 
-    echo (createResponse($searchData, $input));
+    function createChat($searchData, $input){
+        $userInput = formatInput($input);
+        $botResponse = createResponse($searchData, $input);
+
+        $_SESSION['chatHistory'][$userInput] = $botResponse;
+
+        echo "
+            <div class='bot-response message'>
+                Hoi! Waarmee kan ik je helpen?
+            </div>
+        ";
+
+        foreach($_SESSION['chatHistory'] as $userInput => $botResponse){
+            echo "
+                <div class='user-input message'>
+                    $userInput
+                </div>
+                <div class='bot-response message'>
+                    $botResponse
+                </div>
+            ";
+        };
+    }
 ?>
