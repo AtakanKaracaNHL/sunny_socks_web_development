@@ -1,0 +1,145 @@
+
+
+@font-face {
+  font-family: nexalight; 
+  src: url(../fonts/Nexa_Light.otf); 
+}
+
+@font-face {
+  font-family: nexabold; 
+  src: url(../fonts/Nexa_Bold.otf); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  display: block;
+}
+
+main h2, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1920px;
+    height: 150px;
+    background-color: white; 
+}
+
+.overons {
+    display: flex;
+    width: 100%;
+    height: 875px;
+    background-color: #1e407b;
+    justify-content: center;
+    align-items: center;
+}
+
+.overonstext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 5rem;
+}
+
+.overonstext > h1 {
+    font-weight: 700;
+    font-size: 90px;
+    color: #e991b9;
+
+    font-family: nexabold;
+}
+
+
+.overonstext > p {
+    font-family: nexalight;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    max-width: 750px;
+}
+
+.overonsimage {
+    height: 500px;
+    width: 300px;
+    background-color: lightgray;
+}
+
+
+.onzemissie {
+    width: 100%;
+    height: 875px;
+    background-image: url(../img/overons/backgroundgreen.png);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+}
+
+.onzemissie h2 {
+    color: #FBB041;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: nexabold;
+}
+
+.onzemissie p {
+    font-family: nexalight;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    max-width: 500px;
+}
+
+.onzevisie {
+    width: 100%;
+    height: 875px;
+    background-color: #f15b38;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: white;
+}
+
+.onzevisie img {
+    border-radius: 250px;
+}
+
+.onzevisietext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5rem;
+    max-width: 500px;
+}
+
+.onzevisietext h2 {
+    width: 100%;
+    text-align: right;
+    color: #FECD3E;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: nexabold;
+}
+
+.onzevisietext p {
+    width: 100%;
+    font-family: nexalight;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+}
+
+
+
