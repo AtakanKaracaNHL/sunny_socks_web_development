@@ -354,12 +354,12 @@ main{
 
 .vote-card-text-small{
     margin-left: 20px;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 .vote-card-text-large{
     margin-left: 20px;
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 .vote-card-button-small,
@@ -407,9 +407,11 @@ main{
 .fa-small{
     font-size: 38px;
     padding-top: 4px;
+    color: black;
 }
 
 .fa-large{
+    color: black;
     grid-column: 1;
     font-size: 44px;
     place-self: center;
