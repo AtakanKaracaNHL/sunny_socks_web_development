@@ -143,9 +143,10 @@ main{
     place-self: center;
     margin-top: 36px;
     background-image: url(../img/campagne/background-election.png);
-    background-size: contain;
+    background-size: cover;
     height: 694px;
-    width: 96%;
+    margin-left: 50px;
+    margin-right: 50px;
     max-height: 500px;
 }
 
@@ -365,6 +366,7 @@ main{
 .vote-card-button-large{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    z-index: 1;
 }
 
 .vote-card-button-small,
