@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../sunny_socks_web_development/css/contactpagina.css">
+    <link rel="stylesheet" href="../sunny_socks_web_development/css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/stylefooter.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <link rel="shortcut icon" href="img/illustraties/png/Sunny_socks_green.png"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/sunny_socks_web_development/css/contactpagina.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
-    <?php
-        require_once 'components/header.html';
-    ?>
-    <body>
     
         <?php
         require_once 'components/header.html'
@@ -108,79 +103,10 @@
             </div>            
         </div>
     </div>
-    
-<footer class= "site-footer">
-    
-        <div class= "footer-content">
-            <div class="footerlogo">
-                <img src="../sunny_socks_web_development/img/Logos/png/sunny_logos_blue.png" alt="Logo blue"> 
-         
-
-            <div class= "socialmedia">
-
-                <ul class="social-icons">
-                    <li class="active"><a href="https://www.facebook.com/register/?lang=nl"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://x.com/"><i class="fab fa-x-twitter"></i></a></li>
-                    <li><a href="https://nl.pinterest.com/"><i class="fab fa-pinterest-p"></i></a></li>
-                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-
-            </div>
-
-            <div class=" Snellelinks">
-                
-                <ul class="links">
-                    <h3>Snelle links</h3>
-                    <li>Home</li>
-                    <li><a href="duurzaamheid.php">Duurzaamheid</a></li>
-                    <li><a href="overzicht.php">Collectie</a></li>
-                    <li><a href="over_ons.php">Over ons</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="campagne.php">Campagne</a></li>
-                    <li><a href="media.zip" download>Downloadbare Media</a></li>
-                </ul>
-
-            </div>
-
-
-            <div class="Helpcentrum">
-                
-                <ul class="centrum">
-                    <h3>Helpcentrum</h3>
-                    <li>Betalingen</li>
-                    <li>Verzending</li>
-                    <li>Productretouren</li>
-                    <li>FAQs</li>
-                    <li>Afrekenen</li>  
-                </ul>
-
-            </div>
-
-
-            <div class="Onzenieuwsbrief">
-                <h3>Onze Nieuwsbrief</h3>
-                <p>Schrijf u in voor onze nieuwsbrief en blijf op de hoogte van onze fantastische aanbiedingen.</p>
-
-                <div class="email-wrapper">
-                    <input type="email" placeholder="Voer uw e-mailadres in"></i>
-                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                </div>
-
-
-            </div>
-
-        </div>
-
-        <hr>
-
-        <p class="footercopy">
-         2025 Sunny Socks. All rights reserved.
-        </p>
-
-
-</footer>
-
+    <footer>
+    <?php
+    require_once 'components/footer.html'
+    ?>
+    </footer>
 </body>
 </html>
