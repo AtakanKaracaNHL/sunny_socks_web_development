@@ -18,6 +18,241 @@
     
      <main>
 
+        <div class="carrousel">
+            <div class="carrousel-track">
+                <div class="blauwstukje" id="blauw">
+                    <div class="image">
+                        <img src="./img/catalogus/catalogus/Sunny_socks_blue.jpg" alt="blueimg">
+                    </div>
+                    <div class="info">
+                        <p class="procent">BESPAAR 10 - 20%</p>
+                        <p>Beste Verkochte <br> Sokken.</p>
+                        <button class="check">BEKIJK HIER<img src="./img/index-img/arrow-sm-rightwhite-svgrepo-com.svg" alt="pijl"></button>
+                    </div>
+                </div>
+                <div class="Rozestukje" id="Roze">
+                    <div class="image">
+                        <img src="./img/catalogus/catalogus/Sunny_socks_pink.jpg" alt="pinkimg">
+                    </div>
+                    <div class="info">
+                        <p class="procent">BESPAAR 10 - 20%</p>
+                        <p>Beste Verkochte <br> Sokken.</p>
+                        <button class="check">BEKIJK HIER<img src="./img/index-img/arrow-sm-rightwhite-svgrepo-com.svg" alt="pijl"></button>
+                    </div>
+                </div>
+                <div class="Roodstukje" id="rood">
+                    <div class="image">
+                        <img src="./img/catalogus/catalogus/Sunny_socks_red.jpg" alt="redimg">
+                    </div>
+                    <div class="info">
+                        <p class="procent">BESPAAR 10 - 20%</p>
+                        <p>Beste Verkochte <br> Sokken.</p>
+                        <button class="check">BEKIJK HIER<img src="./img/index-img/arrow-sm-rightwhite-svgrepo-com.svg" alt="pijl"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="categorie">
+            <div class="categorieën">
+                <p>Categorieën</p>
+            </div>
+            <div class="Soortensokken">
+                <div class="blauw">
+                    <img src="./img/illustraties/png/Sunny_socks_Blue.png" alt="blauwesok">
+                    <p>Korte Sokken</p>
+                </div>
+                <div class="groen">
+                    <img src="./img/illustraties/png/Sunny_socks_Green.png" alt="groenesok">
+                    <p>Sneakersokken</p>
+                </div>
+                <div class="oranje">
+                    <img src="./img/illustraties/png/Sunny_socks_Orange.png" alt="oranjesok">
+                    <p>Sportsokken</p>
+                </div>
+                <div class="roze">
+                    <img src="./img/illustraties/png/Sunny_socks_Pink.png" alt="rozesok">
+                    <p>Kniekousen</p>
+                </div>
+                <div class="geel">
+                    <img src="./img/illustraties/png/Sunny_socks_Yellow.png" alt="gelesok">
+                    <p>Beenwarmers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Topdeals">
+            <div class="selectie">
+                <div class="title">
+                    <h2>Topdeals</h2>
+                </div>
+                <div class="bekijkhier">
+                    <button class="bekijk">BEKIJK HIER<img src="./img/index-img/arrow-sm-right-svgrepo-com.svg" alt="pijl"></button>
+                </div>
+                <div class="selectie1">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel1-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie2">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel2-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie3">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel3-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie4">
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_green.png" alt="imgsocksgreen">
+                </div>
+                <div class="sel4-content">
+                    <p>Groene sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="MeestVerkocht">
+            <div class="selectie">
+                <div class="title">
+                    <h2>Meest verkocht</h2>
+                </div>
+                <div class="bekijkhier">
+                    <button class="bekijk">BEKIJK HIER<img src="./img/index-img/arrow-sm-right-svgrepo-com.svg" alt="pijl"></button>
+                </div>
+                <div class="selectie1">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel1-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie2">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel2-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie3">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel3-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie4">
+                    <button class="Nieuw">Nieuw</button>
+                   <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel4-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepo-com.svg" alt="favorietimg"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="PopulaireProducten">
+            <div class="selectie">
+                <div class="title">
+                    <h2>Populaire Producten</h2>
+                </div>
+                <div class="bekijkhier">
+                    <button class="bekijk">BEKIJK HIER<img src="./img/index-img/arrow-sm-right-svgrepo-com.svg" alt="pijl"></button>
+                </div>
+                <div class="selectie1">
+                    <button class="Nieuw">Nieuw</button>
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_blue.png" alt="imgsocksblue">
+                </div>
+                <div class="sel1-content">
+                    <p>Blauwe sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepoblack-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie2">
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_green.png" alt="imgsocksgreen">
+                </div>
+                <div class="sel2-content">
+                    <p>Groene sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepoblack-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie3">
+                    <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_green.png" alt="imgsocksgreen">
+                </div>
+                <div class="sel3-content">
+                    <p>Groene sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepoblack-com.svg" alt="favorietimg"></button>
+                </div>
+                <div class="selectie4">
+                   <img src="./img/verpakking/packaging/png/catalogus_sokken_uni_green.png" alt="imgsocksgreen">
+                </div>
+                <div class="sel4-content">
+                    <p>Groene sokken</p>
+                    <img src="img/index-img/Schermafbeelding 2025-10-28 092333.png" class="sterimg"alt="sterrenimg">
+                    <p class="price">€7.99</p>
+                    <button class="winkelwagen">+ WINKELWAGEN</button>
+                    <button class="favorite"><img src="./img/index-img/heart-svgrepoblack-com.svg" alt="favorietimg"></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="quotes">
+            <div class="imagequotes">
+                <img src="./img/index-img/quotes-svgrepo-com.svg" alt="imgquotes">
+            </div>
+            <div class="quotes-content">
+                <p>Positivity is part of our DNA. Sunny likes to look on the brightside. Every problem is an opportunity to come up with a solution. </p>
+                <h6>- Sunny Socks</h6>
+            </div>
+        </div>
+
         <div class="korting"> 
             <div class="imagesun">
                 <img src="../sunny_socks_web_development/img/index-img/sun-svgrepo-com.svg" alt="imagesun">
@@ -74,6 +309,15 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>  
             </div>
+        </div>
+
+        <div class="reviews-content">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
         </div>
 
     </main>
