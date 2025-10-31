@@ -1,0 +1,143 @@
+.title{
+    font-size: 3rem;
+    min-height: 20rem;
+    background-color: rgb(30, 64, 122);
+    color: rgb(233, 144, 185);
+    line-height: 20rem;
+    margin-bottom: 5rem;
+}
+
+.title > h1{
+    margin: 0;
+    text-align: center;
+}
+
+h1, h3, h4{
+    font-family: Nexa_Bold;
+}
+
+h2{
+    color: gray;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 2fr 1fr;
+    gap: 2rem;
+}
+
+.display_img{
+    grid-column: 2;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.info{
+    grid-column: span 2;
+}
+
+.info > img{
+    width: 15%;
+}
+
+.light{
+    font-family: Nexa_Light;
+    font-size: 1rem;
+}
+
+.maat > button{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+}
+
+.colors > a > button{
+    height: 2rem;
+    width: 2rem;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.blue{
+    background-color: RGB(30, 64, 122);
+}
+
+.green{
+    background-color: RGB(79, 178, 162);
+}
+
+.pink{
+    background-color: RGB(233, 144, 185);
+}
+
+.red{
+    background-color: RGB(241, 91, 57);
+}
+
+.yellow{
+    background-color: RGB(254, 205, 62);
+}
+
+.spacebetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacebetween > img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.spacebetween > div{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    max-height: 1rem;
+}
+
+.amountButton{
+    width: 20%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.Winkelwagen{
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.small_Img{
+    width: 1rem;
+    padding-right: 5px;
+}
+
+.spacearound{
+    margin: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.round-border{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 1rem;
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.thin{
+    color: black;
+    font-family: Nexa_Light;
+}
