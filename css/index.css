@@ -333,7 +333,7 @@ body{
     align-content: center;
     padding: 0.5rem;
 }
-form > input{
+.form-index > input{
     padding: 0.7rem;
     min-width: 300px;
     border-radius: 3px;

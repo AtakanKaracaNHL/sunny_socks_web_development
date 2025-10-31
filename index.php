@@ -286,7 +286,7 @@
                 <p>Op</p>
                 <p>Uw Eerste Aankoop</p>
                 <div class="input">
-                    <form>
+                    <form class='form-index'>
                         <label for="email"></label>
                         <input type="text" name="email" placeholder="Voer Uw Emailadres in"><br>
                         <label for="password"></label>
