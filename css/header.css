@@ -25,10 +25,12 @@ header{
     gap: 1rem;
     padding-top: 2rem;
 }
-
-.upper > img{
-    width: 100%;
+.upper > a{
     grid-column: 2/3;
+}
+
+.upper img{
+    width: 100%;
 }
 
 .email > span, .phone > span{
@@ -84,13 +86,14 @@ hr{
 
 .lower{
     display: grid;
-    grid-template-columns: 30% 40% 10% 7.5% 12.5%;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .pages{
-    grid-column: 2/3;
+    grid-column: 3/5;
     display: flex;
-    justify-content: space-between;
+    white-space: nowrap;
+    gap: 20px;
 }
 
 .pages > a{
@@ -99,7 +102,8 @@ hr{
 }
 
 .icons{
-    grid-column: 4/5;
+    grid-column: 6/7;
     display: flex;
     justify-content: space-between;
+    margin-left: 48px;
 }

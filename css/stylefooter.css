@@ -62,11 +62,16 @@ h3{
 .Snellelinks{
     grid-column: 2;
 }
+
 .links{
     list-style-type: none;
     color: black;
 }
 
+.links > li > a{
+    text-decoration: none; 
+    color: inherit;
+}
 
 .Helpcentrum{
     grid-column: 3;

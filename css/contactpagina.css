@@ -1,0 +1,419 @@
+@font-face
+{
+font-family: "nexa-thin";
+src: url(../fonts/Nexa_thin.otf);
+}
+@font-face
+{
+font-family: "nexa-light";
+src: url(../fonts/Nexa_Light.otf);
+}
+@font-face
+{
+font-family: "nexa-bold";
+src: url(../fonts/Nexa_Bold.otf);
+}
+.informatie {
+    font-family: Nexa-Light;
+}
+.naam {
+    font-family: Nexa-Light;
+}
+.overig {
+    font-family: Nexa-Light;
+    font-weight: bold;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+    grid-template-rows: 1fr 1.5fr 3fr;
+    margin: 0;
+    background-color: #FCFCFC;
+}
+
+header {
+    grid-column: 1/5;
+}
+
+.banner {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-color: #1E407A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #E990B9;
+    margin: 0;
+}
+
+.banner p {
+    color: #E990B9;
+    margin: 0;
+}
+
+.content {
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+.formulier {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr 4fr 2fr;
+    position: relative; /* make it a positioning context */
+    background-color: #FCFCFC;
+}
+
+.contactblok {
+    margin-top: 3rem;
+    border-radius: 10px;
+    grid-column: 2/4; /* this stays as your pink background */
+    background-color: #FFFFFF;
+    position: relative;
+    display: grid; /* now it's a grid container */
+    grid-template-columns: 3fr 4fr; /* same as the parent ratio if you want */
+}
+
+.goedeinvoer {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.goedeinvoer input {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #8D8D8D;
+    margin-bottom: 30px;
+}
+
+.goedeinvoer label {
+    color: #8D8D8D;
+    font-size: 12px;
+}
+
+.naam {
+   display: flex;
+   gap: 40px;
+}
+
+.overig {
+    display: flex;
+    gap: 40px;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.onderwerp {
+    grid-column: 2/3;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.onderwerp input {
+   width: 10px;
+}
+
+.onderwerp label {
+    font-size: 12px;
+}
+
+.betaling {
+    display: flex;
+    gap: 5px;
+}
+
+.bezorging {
+    display: flex;
+    gap: 5px;
+}
+
+.overige {
+    display: flex;
+    gap: 5px;
+}
+
+.overigen {
+    display: flex;
+    gap: 5px;
+}
+
+input[type="radio"] {
+  appearance: none; /* removes the native circle */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none; /* remove outline border */
+  background-color: #E0E0E0; /* gray dot when unchecked */
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"]:checked {
+  background-color: transparent; /* remove gray fill */
+}
+
+input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-image: url("/sunny/afb/teenyicons_tick-circle-solid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label {
+  color: #1E407A ;
+}
+
+.opmerking {
+    display: flex;
+    flex-direction: column;
+}
+
+.opmerking input {
+    width: 100%;
+}
+
+.submit {
+    display: flex;
+    justify-content: end;
+}
+
+.submit input {
+    color: white;
+    background-color: #1E407A;
+    border-radius: 5px;
+    border: none;
+    width: 210px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.informatie {
+    position: absolute;
+    margin-top: 48px;
+    top: 10px;
+    bottom: 10px;
+    width: 360px;
+    grid-column: 2/3;
+    background-color: #1E407A;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 2rem;
+    padding-right: 0;
+    padding-bottom: 0;  
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #F15B39;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.informatie p {
+    margin-top: 0;
+    color: #C9C9C9;
+}
+
+.contactinfo {
+  display: flex;
+  align-items: center;    
+  gap: 0.8rem;            
+  margin: 0.6rem 0;
+}
+
+.contactinfo img {
+  width: 20px;
+  height: 20px;
+}
+
+.contactinfo p {
+  margin: 0;
+  color: #E990B9;
+  font-size: 19px;
+}
+
+.sunnygegevens {
+    flex: 1; /* take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+    gap: 20px;
+}
+
+.platform-imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 2rem;
+}
+
+.eclipse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eclipse img {
+    width: 180px;
+    height: 180px;
+}
+footer {
+    margin-top: 20px;
+    grid-column: 2/4;
+}
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa_Light.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa_Bold.otf);
+}
+
+body{
+    font-family: "Nexa_Light";
+}
+
+footer > .footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #FCFCFC;
+    Margin: 0;
+    padding: 1rem;
+    gap: 10px;
+    align-content: center;
+}
+
+h3{
+    font-family:"Nexa_Light";
+}
+
+.footerlogo > img{
+    width: 60%;
+    grid-column: 1;
+    padding:0.7rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 0.7rem;
+}
+
+.social-icons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.social-icons li.active a {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: white;
+  text-decoration: none;
+}
+
+
+.Snellelinks{
+    grid-column: 2;
+}
+
+.links{
+    list-style-type: none;
+    color: black;
+}
+
+.links > li > a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.Helpcentrum{
+    grid-column: 3;
+}
+.centrum{
+    list-style-type: none;
+}
+
+.Onzenieuwsbrief{
+    grid-column: 4;
+}
+
+.Onzenieuwsbrief > input{
+    padding: 0.7rem;
+    border-radius: 50px;
+}
+
+.email-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  width: 230px;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.email-wrapper > input{
+    border: none;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.email-wrapper button {
+  background-color:  #3b5998;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-right: 3px;
+}
+
+.email-wrapper > i{
+    color: #ffffff;
+}
+
+.footercopy{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 13px;
+    color: grey;
+}
