@@ -11,9 +11,11 @@
 </head>
 <body>
     
-        <?php
+    <?php
         require_once 'components/header.html'
-        ?>
+        require_once 'components/chatbox/chatbox-component.php';
+        renderChatbox(); 
+    ?>
     
     <div class="banner">
         <h1>Neem contact met ons op</h1>

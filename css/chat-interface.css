@@ -1,0 +1,43 @@
+body{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+}
+
+form{
+    margin: 0;
+    grid-row: 2/2;
+}
+
+input{
+    min-width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.chat-history{
+    overflow-y: auto;
+    grid-row: 1/2;
+    scroll-behavior: smooth;
+}
+
+.message{
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 1rem;
+    max-width: fit-content;
+    max-width: 60%;
+}
+
+.user-input{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.bot-response{
+    background-color: rgba(30, 64, 122, 0.8);
+}

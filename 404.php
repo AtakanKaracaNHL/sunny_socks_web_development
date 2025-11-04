@@ -14,6 +14,8 @@
 <body>
     <?php
         require_once 'components/header.html';
+        require_once 'components/chatbox/chatbox-component.php';
+        renderChatbox(); 
     ?>
 
     <main>
